@@ -1,0 +1,36 @@
+/* Home Section */
+#home {
+  justify-content: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+/* About Section */
+#about {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+/* Portfolio Section */
+#portfolio {
+  padding: 50px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gallery img {
+  height: auto;
+}
+/* Interested Things About Me Section */
+#about {
+  background-color: #f2f2f2;
+}
+/*My Family Section */
+#family {
+    align-items: center;
+}
+
+img {
+    height: auto;
+}
