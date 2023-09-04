@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <title>Nilrose Website</title>
+  <style>
+    body { 
+      <font face="Verdana" size="10">
+        Welcome to the platform!
+    </font>
+
+    }
+
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 p-1" style="background-color: #94216b;"></div>
+      <div class="col-8 p-1" style="background-color: #94216b;;">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light text-center active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-center" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-center" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-center" href="#interests">My Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-center" href="#family">My Family</a>
+            </li>
+      </div>
+      <div class="col-2 p-1" style="background-color: #94216b;;"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div col-12>
+        
+        <section id="home">
+          <div class="card m-4 shadow">
+            <div class="container">
+              <img src="image/background.jpg" class="rounded w-100" alt="...">
+              <div class="centered">
+                <h1 class="text-light">
+                  Welcome to My Website!
+                </h2>
+              </div>
+            </div>
+           
+          </div>
+        </section>
+
+        <section id="about">
+          <div class="card m-4 shadow">
+            <div class="card-header">
+              <dt>About Me</dt>
+            </div>          
+            <div class="card-body">
+
+              <p class="font-weight-normal" style="text-indent: 4%;">My name is Nilrose Costas. I am currently living in Alabang, Muntinlupa City. I entered this world on the 5th of January in the year of 2003 and I am 20 years old right now. Growing up, I was blessed with a loving and supportive family. 
+                </p>
+                <p class="font-weight-normal" style="text-indent: 4%;">
+                My mother's name is Nora Cadiz and my father's name is Nilo Costas, although my parents got separated when I was in elementary but I am still thankful that my mother raised me an independent women, teaching me the importance of kindness, perseverance, and empathy. I have two brothers named Nilven Costas which is older brother and Niel Costas my younger brother. 
+              </p>
+              <p class="font-weight-normal" style="text-indent: 4%;">
+                My education has been a significant part of my life, shaping my perspective and igniting my curiosity. I attended Muntinlupa National High School Main as a STEM student, excelling academically and discovering my passion for learning and leadership. In this subject, I hope to gain a solid foundation in utilizing technology to streamline information processes and enhance decision-making. I look forward to expanding my knowledge and skills in information management to better navigate the complexities of the digital age and I expect myself to cooperate more and study hard for this subject. 
+              </p>
+              <p class="font-weight-normal" style="text-indent: 4%;">
+                Looking ahead, five years from now I see myself working in a project to a known company and seeing myself working in the field that I want. Thriving and working hard to become successful and to learn new things. 
+              </p>
+              <p class="font-weight-normal" style="text-indent: 4%;">
+                So, that's me- a simple woman with a single goal: to achieve success, not just in terms of wealth but also happiness and peace of mind.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio">
+          <div class="card m-4 shadow">
+            <div class="card-header">
+              <dt>My Portfolio</dt>
+            </div>
+            <div class="card-body">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="slides-tab" data-bs-toggle="tab" data-bs-target="#slides" type="button" role="tab" aria-controls="slides" aria-selected="true">Slides</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Gallery</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active p-3" id="slides" role="tabpanel" aria-labelledby="slides-tab">
+                  <div id="carouselExampleIndicators" class="carousel slide carousel-fade bg-dark" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active text-center">
+                        <img src="image/image1.jpg" class="rounded w-50" alt="...">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="image/image2.jpg" class="rounded w-50" alt="...">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="image/image3.jpg" class="rounded w-50" alt="...">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="image/image4.jpg" class="rounded w-50" alt="...">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="image/image5.jpg" class="rounded w-50" alt="...">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="image/image6.jpg" class="rounded w-50" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image1.jpg" class="rounded w-50" alt="...">
+                          </div>
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image2.jpg" class="rounded w-50" alt="...">
+                          </div>
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image3.jpg" class="rounded w-50" alt="...">
+                          </div>
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image4.jpg" class="rounded w-50" alt="...">
+                          </div>
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image5.jpg" class="rounded w-50" alt="...">
+                          </div>
+                          <div class="col-4 p-3 text-center">
+                            <img src="image/image6.jpg" class="rounded w-50" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="interests">
+          <div class="card m-4 shadow">
+            <div class="card-header">
+              <dt>My interests</dt>
+            </div>
+            <div class="card-body" style="text-indent: 20%;"></div>
+              <ul>
+                <li>I love watching movies.</li>
+                <li>I played guitar.</li>
+                <li>I love fashion.</li>
+                <li>I drink coffee a lot.</li>
+                <li>I love taking pictures.</li>
+                <li>I love travelling and adventures.</li>
+                
+            </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="family">
+          <div class="card m-4 shadow">
+            <div class="card-header">
+              <dt>My Family</dt>
+            </div>
+            <div class="card-body">
+              <div class="tab-pane fade show active p-3" id="familyCarousel" role="tabpanel" aria-labelledby="home-tab">
+                <div id="carouselExampleIndicators1" class="carousel slide carousel-fade bg-dark" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                      <img src="image/family1.jpg" class="rounded w-50" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>My Father</h3>
+                        <p>He work as a business man.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <img src="image/family2.jpg" class="rounded w-50" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>My Mother</h3>
+                        <p>She work as a house wife.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <img src="image/family3.jpg" class="rounded w-50" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>My Brother</h3>
+                        <p>He work as a chef cook in a chinese restaurant.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <img src="image/family4.jpg" class="rounded w-50" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>My Brother</h3>
+                        <p>He work as a business man.</p>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
